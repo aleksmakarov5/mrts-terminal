@@ -40,8 +40,8 @@
                                 Клиентам
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Услуги</a></li>
-                                <li><a class="dropdown-item" href="#">Типовые шаблоны договоров</a></li>
+                                <li><a class="dropdown-item" href="/uslugi">Услуги</a></li>
+                                <li><a class="dropdown-item" href="/template">Типовые шаблоны договоров</a></li>
                             </ul>
                         </li>
                     </ul>

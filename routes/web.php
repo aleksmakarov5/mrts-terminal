@@ -12,6 +12,12 @@ Route::get('/contacts', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/uslugi', function () {
+    return view('uslugi');
+});
+Route::get('/template', function () {
+    return view('template');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
