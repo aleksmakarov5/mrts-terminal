@@ -1,15 +1,17 @@
 @extends('layouts.main')
 @section('title')
-Контакты
+    Контакты
 @endsection
 @section('content')
-        <div class="page ">
+    <div class="page ">
 
-            <h1>Типовые шаблоны договоров</h1>
+        <h1>Типовые шаблоны договоров</h1>
 
-           <a  class="nav-link" href="storage/template/1.pdf" target="_blank">Проект договора предоставление инфраструктуры</a>
-           <br>
-    <a  class="nav-link" href="storage/template/2.pdf" target="_blank">Проект договора ПРР</a>
+        <a class="btn btn-primary" href="storage/template/1.pdf" target="_blank">Проект договора предоставление
+            инфраструктуры</a>
+        <br>
+        <br>
+        <a class="btn btn-primary" href="storage/template/2.pdf" target="_blank">Проект договора ПРР</a>
 
-        </div>
+    </div>
 @endsection
