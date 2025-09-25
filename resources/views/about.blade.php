@@ -8,15 +8,15 @@
         <h1>О компании</h1>
 
         <div class="row">
-            <div class="col col-sm-12 col-md-6 col-lg-1">
+            <div class="col col-sm-12 col-md-12 col-lg-1">
 
             </div>
-            <div class="col col-sm-12 col-md-6 col-lg-3">
+            <div class="col col-sm-12 col-md-12 col-lg-3">
                 <div class="about__img">
                     <img src="{{ asset('storage/img/about1.jpg') }}" width=100% alt="">
                 </div>
             </div>
-            <div class="col col-sm-12 col-md-6  col-lg-7">
+            <div class="col col-sm-12 col-md-12  col-lg-7">
                 <div class="about__text">
                     <p>
                         История ООО "МРТС Терминал" берет свое начало <b>21 сентября 1927 года!</b></p>
@@ -37,11 +37,11 @@
 
         </div>
         <div class="row">
-            <div class="col col-sm-12 col-md-6 col-lg-1">
+            <div class="col col-sm-12 col-md-12 col-lg-1">
 
             </div>
 
-            <div class="col col-sm-12 col-md-6 col-lg-7">
+            <div class="col col-sm-12 col-md-12 col-lg-7">
                 <div class="about__text">
                     <p> <b>17.10.1996г</b> - АООТ «Архангельская лесоперевалочная база» переименована в ОАО «Архангельская
                         лесоперевалочная база» на основании решения регистрационной палаты Мэрии г Архангельска от 17
@@ -53,7 +53,7 @@
 
                 </div>
             </div>
-            <div class="col col-sm-12 col-md-6 col-lg-3">
+            <div class="col col-sm-12 col-md-12 col-lg-3">
                 <div class="about__img">
                     <img src="{{ asset('storage/img/about2.jpg') }}" width=100% alt="">
                 </div>
