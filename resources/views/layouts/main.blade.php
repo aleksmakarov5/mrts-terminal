@@ -14,8 +14,7 @@
         @yield('title')
     </title>
      <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.5; color: #333; background-color: #f9f9f9; margin: 0; padding: 20px; }
-        .container {  margin: 0 auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+         .container {  margin: 0 auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.01); }
         h1 { color: #2c3e50; text-align: center; margin-bottom: 10px; font-size: 24px; }
         h2 { color: #34495e; font-size: 20px; border-bottom: 2px solid #ecf0f1; padding-bottom: 10px; margin-top: 40px; }
         .tabs { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
