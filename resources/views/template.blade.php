@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('title')
-    Контакты
+    Типовые шаблоны договоров
 @endsection
 @section('content')
     <div class="page ">
@@ -12,8 +12,6 @@
             <thead>
                 <tr>
                     <th>Файл</th>
-                    <th>Тип документа</th>
-                    <th>Краткое назначение</th>
                     <th>Скачать</th>
                 </tr>
             </thead>
@@ -25,8 +23,7 @@
                             Агентский договор на электроснабжение
                         </a>
                     </td>
-                    <td class="col-type">Агентский договор</td>
-                    <td>Организация электроснабжения.</td>
+                 
                     <td>
                         <a href="storage/template/Agentstkiy_dogovor_el-energiya_001-2026.docx" class="btn-download" download>
                             ⬇ .docx
@@ -40,8 +37,6 @@
                             Договор на предоставление инфраструктуры
                         </a>
                     </td>
-                    <td class="col-type">Договор инфраструктуры</td>
-                    <td>Доступ к причалам, дорогам и инфраструктуре.</td>
                     <td>
                         <a href="storage/template/Proekt_dogovora_predostavlenie_infrastrukturi_2026.docx" class="btn-download" download>
                             ⬇ .docx
@@ -55,8 +50,6 @@
                             Договор на оказание услуг по перевалке груза
                         </a>
                     </td>
-                    <td class="col-type">Договор ПРР (перевалка)</td>
-                    <td>Основной производственный договор: погрузка/выгрузка.</td>
                     <td>
                         <a href="storage/template/Proekt_dogovora_PRR_na_2026g.docx" class="btn-download" download>
                             ⬇ .docx
@@ -70,8 +63,6 @@
                             Реестр заявок на заключение договоров
                         </a>
                     </td>
-                    <td class="col-type">Реестр заявок</td>
-                    <td>Внутренний журнал учета обращений.</td>
                     <td>
                         <a href="storage/template/Reestr_zayavok_na_zakluchenie_dogovorov.docx" class="btn-download" download>
                             ⬇ .docx
@@ -85,8 +76,6 @@
                             Сведения о доступной мощности терминала
                         </a>
                     </td>
-                    <td class="col-type">Справка о мощности</td>
-                    <td>Производственный лимит: 20 000 тонн в месяц.</td>
                     <td>
                         <a href="storage/template/Svedeniya_o_dostupnoy_moschnosti_terminala.docx" class="btn-download" download>
                             ⬇ .docx
@@ -100,8 +89,6 @@
                             Типовая форма заявки на заключение договора
                         </a>
                     </td>
-                    <td class="col-type">Бланк заявки</td>
-                    <td>Первичный документ от клиента для запроса услуг.</td>
                     <td>
                         <a href="storage/template/Tipovaya_forma_zayavki_na_zakluchenie_dogovora_na_okazanie_uslug.docx" class="btn-download" download>
                             ⬇ .docx
@@ -115,8 +102,6 @@
                             Тарифы МРТС Терминал 2026 (Коммерция)
                         </a>
                     </td>
-                    <td class="col-type">Прайс-лист</td>
-                    <td>Детальная таблица коммерческих тарифов.</td>
                     <td>
                         <a href="storage/template/Tarifi_MRTS_Terminal_2026_Kommertsiya.xlsx" class="btn-download" download>
                             ⬇ .xlsx
