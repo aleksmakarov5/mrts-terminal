@@ -13,6 +13,24 @@
     <title>
         @yield('title')
     </title>
+     <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; line-height: 1.5; color: #333; background-color: #f9f9f9; margin: 0; padding: 20px; }
+        .container {  margin: 0 auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        h1 { color: #2c3e50; text-align: center; margin-bottom: 10px; font-size: 24px; }
+        h2 { color: #34495e; font-size: 20px; border-bottom: 2px solid #ecf0f1; padding-bottom: 10px; margin-top: 40px; }
+        .tabs { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+        .tab { padding: 10px 20px; background: #e0e0e0; border-radius: 20px; cursor: pointer; font-weight: 500; transition: all 0.2s; }
+        .tab.active { background: #3498db; color: white; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 14px; }
+        thead { background-color: #f8f9fa; }
+        th, td { border: 1px solid #dee2e6; padding: 10px; text-align: left; vertical-align: top; }
+        th { font-weight: 600; color: #495057; }
+        .notes { background-color: #3ca2eb90; border-left: 4px solid #838dd2; padding: 15px; margin-top: 20px; font-size: 13px; color: #120576; }
+        .notes h3 { margin-top: 0; color: #150265; }
+        .notes ul { margin: 5px 0 0 20px; padding: 0; }
+        .disclaimer { font-size: 12px; color: #6c757d; text-align: center; margin-top: 40px; }
+        .excel-download-btn {  top: 20px; right: 20px;  padding: 10px 15px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 600; border: none; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; gap: 8px; } .excel-download-btn:hover { background: #72bbff; }
+    </style>
 </head>
 
 <body>
@@ -50,6 +68,7 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li><a class="dropdown-item" href="/uslugi">Услуги</a></li>
+                                    <li><a class="dropdown-item" href="/tarifi">Тарифы</a></li>
                                     <li><a class="dropdown-item" href="/template">Типовые шаблоны договоров</a></li>
                                 </ul>
                             </li>
@@ -82,6 +101,17 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+     <script>
+        function showTab(tabName) {
+            const contents = document.querySelectorAll('.tab-content');
+            const tabs = document.querySelectorAll('.tab');
+            contents.forEach(c => c.style.display = 'none');
+            tabs.forEach(t => t.classList.remove('active'));
+            
+            document.getElementById(tabName).style.display = 'block';
+            event.target.classList.add('active');
+        }
     </script>
 </body>
 

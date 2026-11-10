@@ -23,9 +23,9 @@
             <b>E-mail: </b><a href="mailto:shemyakina_p@mrts.ru"
                 mce_href="mailto:shemyakina_p@mrts.ru">shemyakina_p@mrts.ru</a><br mce_bogus="1">
             <b>E-mail руководителя подразделения безопасности: </b><a href="mailto:glavatskii_v@mrts.ru"
-                mce_href="mailto:glavatskii_v@mrts.ru">glavatskii_v@mrts.ru</a><br mce_bogus="1">
+                mce_href="mailto:glavatskii_v@mrts.ru">glavackiy_v@mrts-terminal.ru</a><br mce_bogus="1">
         </p>
-        <p><b>WWW:</b> <a href="http://мртс-терминал.рф/" mce_href="http://мртс-терминал.рф">мртс-терминал.рф</a><br
+        <p><b>WWW:</b> <a href="https://мртс-терминал.рф/" mce_href="https://мртс-терминал.рф">мртс-терминал.рф</a><br
                 mce_bogus="1"></p>
         <p>
             <script type="text/javascript" charset="utf-8" async
