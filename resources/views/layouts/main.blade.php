@@ -30,6 +30,57 @@
         .notes ul { margin: 5px 0 0 20px; padding: 0; }
         .disclaimer { font-size: 12px; color: #6c757d; text-align: center; margin-top: 40px; }
         .excel-download-btn {  top: 20px; right: 20px;  padding: 10px 15px; border-radius: 6px; text-decoration: none; font-size: 14px; font-weight: 600; border: none; cursor: pointer; transition: background 0.2s; display: flex; align-items: center; gap: 8px; } .excel-download-btn:hover { background: #72bbff; }
+     .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        .table-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+       
+        th {
+            padding: 15px 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        tbody tr:hover {
+            background-color: #e8f4fd;
+        }
+        td {
+            padding: 14px 12px;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: top;
+            font-size: 13px;
+        }
+        .col-name-rus {
+            
+            text-decoration:none;
+            color: #29057c;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            display: inline-block;
+        }
+        .col-type {
+            font-weight: 600;
+            color: #2980b9;
+        }
     </style>
 </head>
 
