@@ -30,7 +30,7 @@
         <p>
             <script type="text/javascript" charset="utf-8" async
                 src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa6498732364b1bb3e1bb71002e5bc76dc86dac1af9df3f3e48f30373664be266&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true">
-            </script>
+                </script>
         </p>
 
 
